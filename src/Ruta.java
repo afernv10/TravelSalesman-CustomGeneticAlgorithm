@@ -1,11 +1,12 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-
+/**
+ * 
+ * @author Ander
+ *
+ */
 public class Ruta {
 
 	private String ciudadA, ciudadB, ciudadC, ciudadD, ciudadE, ciudadF;
 	private int AB, AC, BC, BE, CE, CD, DF, EF;
-	private ArrayList<String> listaCiudades;
 	private int maxFitness;
 	
 	public Ruta() {
@@ -15,8 +16,6 @@ public class Ruta {
 		this.ciudadD = "ciudad D";
 		this.ciudadE = "ciudad E";
 		this.ciudadF = "ciudad F";
-		
-		//listaCiudades.addAll(Arrays.asList( ciudadA, ciudadB, ciudadC, ciudadD, ciudadE, ciudadF));
 		
 		this.AB = 10;
 		this.AC = 30;
