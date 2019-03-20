@@ -87,7 +87,7 @@ public class Algoritmo {
 
 		StringBuilder strDebug = new StringBuilder();
 
-		// Crea el escenario de todo
+		// 4. Crea el escenario de todo
 		final Phenotype<EnumGene<String>, Integer> best = engine.stream()
 				// La evolución se para al realizar X generaciones
 				.limit(maxGeneraciones)
@@ -121,7 +121,7 @@ public class Algoritmo {
 		}
 
 		System.out.println(statistics);
-		System.out.println("Best phenotype: " + best);
+		System.out.println("Mejor camino: " + best);
 
 	}
 

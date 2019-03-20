@@ -1,0 +1,2 @@
+PopulationSize, maxGeneraciones, maxPhenotypeAge, probPMX, probSwapMutator
+500,20,10,0.02,0.2
