@@ -138,16 +138,11 @@ public class Algoritmo {
 
 		String[] camino = new String[6];
 
-		// System.out.println(ruta.getNumeroCiudades());
-
 		for (int i = 0; i < camino.length; i++) {
 
 			camino[i] = gt.getChromosome(0).getGene(i).toString();
-			// System.out.println(camino[i]);
 		}
 
-		// System.out.println(ruta.calcularCoste(camino));
-		// cam = Arrays.copyOf(camino, camino.length);
 		ret = ruta.calcularCoste(camino);
 		return ret;
 	}
